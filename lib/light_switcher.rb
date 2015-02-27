@@ -1,4 +1,4 @@
-class Light
+class LightSwitcher
 	attr_reader :light
 
 	def initialize
@@ -47,7 +47,7 @@ class Light
 	def create_party
 		count = 0
 		party = loop do
-			if count == 10
+			if count == 1
 				party.kill
 			end
 			set_white

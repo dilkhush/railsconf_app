@@ -1,14 +1,9 @@
 Rails.application.routes.draw do
   
-  get 'lights/create'
 
-  get 'lights/update'
-
-  get 'lights/destroy'
-
-  namespace :api do
-      namespace :v1 do
-        resources :light
+  namespace :api, defaults: {format: 'json'} do
+      scope module: :v1 do
+        resources :lights, only: [:create, :destroy, :index]
       end
   end
 
