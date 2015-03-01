@@ -46,9 +46,9 @@ class LightSwitcher
 
 	def create_party
 		count = 0
-		party = loop do
+		loop do
 			if count == 1
-				party.kill
+				break
 			end
 			set_white
 			sleep(0.5)
@@ -58,6 +58,7 @@ class LightSwitcher
 			sleep(0.5)
 			set_blue
 			sleep(0.5)
+			count += 1
 		end
 	end
 
