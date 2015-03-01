@@ -1,15 +1,9 @@
 class Api::V1::LightsController < ApplicationController
-	before_action :connect_to_light
+	# before_action :connect_to_light
 
 	def create
-		@light.turn_on
-		if params[:light][:event] == "sunrise"
-			@light.create_sunrise
-		elsif params[:light][:event] == "party"
-			@light.create_party
-		elsif params[:light][:event] == "reset"
-			@light.set_white
-		end
+		request = params[:event] if permitted_events.include?(params[:event])
+		run_rake(request)
 		render nothing: true
 	end
 
@@ -20,8 +14,8 @@ class Api::V1::LightsController < ApplicationController
 
 	private
 
-	def connect_to_light
-		@light = LightSwitcher.new
+	def permitted_events
+		["party", "sunrise", "reset"]
 	end
 end
 

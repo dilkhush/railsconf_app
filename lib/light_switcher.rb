@@ -23,6 +23,10 @@ class LightSwitcher
 		light.set_color LIFX::Color.white, duration: 0
 	end
 
+	def reset
+		set_white
+	end
+
 	def set_red
 		light.set_color LIFX::Color.red, duration: 0
 	end
