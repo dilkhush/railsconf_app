@@ -1,29 +1,24 @@
-class Api::V1::LightsController < ApplicationController
-	before_action :light
+class Api::V1::LightsController < WebsocketRails::BaseController
+
+	def initialize_session
+	    controller_store[:light] = LifxInterface.new
+	end
 
 	def create
-		request = params[:event] if permitted_events.include?(params[:event])
-		Thread.new {
-			@light.send(request)
-		}
-		render nothing: true
-	end
-	
-
-	private
-
-	def permitted_events
-		["create_party", "reset", "create_sunrise", "turn_off", "turn_on"]
+		controller_store[:light].turn_on
 	end
 
-	def light
-		@light = LightSwitcher.new
-
-		if @light.light.off?
-			@light.turn_on
-		end
+	def destroy
+		controller_store[:light].turn_off
 	end
 
+	def change_color
+		red = message[:red]
+		green = message[:green]
+		blue = message[:blue]
+
+		controller_store[:light].set_rgb(red, green, blue)
+	end
 
 end
 

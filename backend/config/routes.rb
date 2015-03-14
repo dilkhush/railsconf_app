@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+	
+	
+	
+	# match "/websocket", to: WebsocketRails::ConnectionManager.new, via: [:get, :post]
   namespace :api do
       namespace :v1 do
         resources :lights, only: [:create]
@@ -7,5 +11,7 @@ Rails.application.routes.draw do
         resources :sonos, only: [:create]
       end
   end
+
+  
 
 end

@@ -1861,3 +1861,396 @@ Completed 200 OK in 3019ms (ActiveRecord: 0.0ms)
 
 ***** Debugger requested, but was not available (ensure the debugger gem is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
 
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-09 22:16:56 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/railties-4.1.6/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
+Completed 200 OK in 34ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api" for 127.0.0.1 at 2015-03-09 22:17:06 -0400
+
+ActionController::RoutingError (No route matches [GET] "/api"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.3) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.3) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.3) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.3) lib/thin/connection.rb:53:in `process'
+  faye-websocket (0.9.2) lib/faye/adapters/thin.rb:40:in `process'
+  thin (1.6.3) lib/thin/connection.rb:39:in `receive_data'
+  faye-websocket (0.9.2) lib/faye/adapters/thin.rb:44:in `receive_data'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run'
+  thin (1.6.3) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.3) lib/thin/server.rb:162:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.6) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.6) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.6) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.6) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.6) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:8:in `require'
+  bin/rails:8:in `<top (required)>'
+  spring (1.3.3) lib/spring/client/rails.rb:27:in `load'
+  spring (1.3.3) lib/spring/client/rails.rb:27:in `call'
+  spring (1.3.3) lib/spring/client/command.rb:7:in `call'
+  spring (1.3.3) lib/spring/client.rb:26:in `run'
+  spring (1.3.3) bin/spring:48:in `<top (required)>'
+  spring (1.3.3) lib/spring/binstub.rb:11:in `load'
+  spring (1.3.3) lib/spring/binstub.rb:11:in `<top (required)>'
+  bin/spring:13:in `require'
+  bin/spring:13:in `<top (required)>'
+  bin/rails:3:in `load'
+  bin/rails:3:in `<main>'
+
+
+  Rendered /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.4ms)
+  Rendered /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.2ms)
+
+
+Started GET "/api/v1/light" for 127.0.0.1 at 2015-03-09 22:17:15 -0400
+
+ActionController::RoutingError (No route matches [GET] "/api/v1/light"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.3) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.3) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.3) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.3) lib/thin/connection.rb:53:in `process'
+  faye-websocket (0.9.2) lib/faye/adapters/thin.rb:40:in `process'
+  thin (1.6.3) lib/thin/connection.rb:39:in `receive_data'
+  faye-websocket (0.9.2) lib/faye/adapters/thin.rb:44:in `receive_data'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run'
+  thin (1.6.3) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.3) lib/thin/server.rb:162:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.6) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.6) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.6) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.6) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.6) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:8:in `require'
+  bin/rails:8:in `<top (required)>'
+  spring (1.3.3) lib/spring/client/rails.rb:27:in `load'
+  spring (1.3.3) lib/spring/client/rails.rb:27:in `call'
+  spring (1.3.3) lib/spring/client/command.rb:7:in `call'
+  spring (1.3.3) lib/spring/client.rb:26:in `run'
+  spring (1.3.3) bin/spring:48:in `<top (required)>'
+  spring (1.3.3) lib/spring/binstub.rb:11:in `load'
+  spring (1.3.3) lib/spring/binstub.rb:11:in `<top (required)>'
+  bin/spring:13:in `require'
+  bin/spring:13:in `<top (required)>'
+  bin/rails:3:in `load'
+  bin/rails:3:in `<main>'
+
+
+  Rendered /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (13.6ms)
+
+
+Started GET "/api/v1/lights" for 127.0.0.1 at 2015-03-09 22:17:18 -0400
+
+ActionController::RoutingError (No route matches [GET] "/api/v1/lights"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.3) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.3) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.3) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.3) lib/thin/connection.rb:53:in `process'
+  faye-websocket (0.9.2) lib/faye/adapters/thin.rb:40:in `process'
+  thin (1.6.3) lib/thin/connection.rb:39:in `receive_data'
+  faye-websocket (0.9.2) lib/faye/adapters/thin.rb:44:in `receive_data'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run'
+  thin (1.6.3) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.3) lib/thin/server.rb:162:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.6) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.6) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.6) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.6) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.6) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:8:in `require'
+  bin/rails:8:in `<top (required)>'
+  spring (1.3.3) lib/spring/client/rails.rb:27:in `load'
+  spring (1.3.3) lib/spring/client/rails.rb:27:in `call'
+  spring (1.3.3) lib/spring/client/command.rb:7:in `call'
+  spring (1.3.3) lib/spring/client.rb:26:in `run'
+  spring (1.3.3) bin/spring:48:in `<top (required)>'
+  spring (1.3.3) lib/spring/binstub.rb:11:in `load'
+  spring (1.3.3) lib/spring/binstub.rb:11:in `<top (required)>'
+  bin/spring:13:in `require'
+  bin/spring:13:in `<top (required)>'
+  bin/rails:3:in `load'
+  bin/rails:3:in `<main>'
+
+
+  Rendered /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (13.6ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 22:40:21 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:06:02 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:06:10 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:06:52 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:07:15 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:07:23 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:07:37 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:07:51 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:08:06 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:08:23 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:08:26 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:08:39 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:08:56 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:09:00 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:09:04 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:09:09 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:10:09 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:10:19 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:21:15 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:22:45 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:22:49 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:23:01 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:28:44 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:30:04 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:32:20 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:37:46 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:41:16 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:41:30 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:42:00 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:43:03 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:43:37 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:44:03 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:45:43 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:46:08 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:46:50 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:47:23 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-09 23:47:49 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-11 22:11:57 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/railties-4.1.6/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-11 22:12:07 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-11 22:53:54 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-11 22:53:54 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-11 22:53:54 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-11 22:53:54 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-11 22:53:54 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-11 22:53:54 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-11 22:53:54 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-11 22:53:54 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-11 22:53:54 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-11 22:53:54 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-11 22:53:54 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-11 22:53:54 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-11 22:58:35 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-11 23:11:12 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-11 23:12:17 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-13 23:14:22 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-13 23:14:31 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-13 23:17:58 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-13 23:18:21 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-13 23:19:00 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-13 23:19:56 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-13 23:20:37 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-13 23:20:56 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-13 23:25:20 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-13 23:27:14 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-13 23:30:30 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-13 23:38:37 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-13 23:40:40 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-13 23:40:43 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-13 23:46:05 -0400
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-03-13 23:46:05 -0400

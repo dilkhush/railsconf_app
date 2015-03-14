@@ -35,9 +35,9 @@ class LifxInterface
 	# 	light.set_color LIFX::Color.green, duration: 0
 	# end
 
-	# def set_rgb(r, g, b)
-	#     light.set_color(LIFX::Color.rgb(r, g, b), duration: 0)
-	# end
+	def set_rgb(r, g, b)
+	    light.set_color(LIFX::Color.rgb(r, g, b), duration: 0)
+	end
 
 	# def create_party
 	# 	count = 0
