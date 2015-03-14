@@ -2364,3 +2364,418 @@ I [2015-03-13 23:55:30.564] [[32mDispatcher[0m] Started Event: stop_coffee
 I [2015-03-13 23:55:30.564] [[32mDispatcher[0m] [36mName:[0m stop_coffee
 I [2015-03-13 23:55:30.564] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::51de7ae5e1b1d3b6673f>
 I [2015-03-13 23:55:30.578] [[32mDispatcher[0m] Event stop_coffee Finished in 0.014037 seconds
+I [2015-03-13 23:59:11.605] [[32mConnectionManager[0m] Connection closed: #<Connection::1b81ac02974d7ad9b769>
+I [2015-03-13 23:59:11.606] [[32mConnectionManager[0m] Connection closed: #<Connection::51de7ae5e1b1d3b6673f>
+I [2015-03-13 23:59:14.195] [[32mConnectionManager[0m] Connection opened: #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:14.111] [[32mConnectionManager[0m] Connection opened: #<Connection::18bc1818e37bf7223f6f>
+I [2015-03-13 23:59:33.383] [[32mDispatcher[0m] Started Event: turn_light_off
+I [2015-03-13 23:59:33.383] [[32mDispatcher[0m] [36mName:[0m turn_light_off
+I [2015-03-13 23:59:33.383] [[32mDispatcher[0m] [36mData:[0m "turn_off"
+I [2015-03-13 23:59:33.383] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:34.172] [[32mDispatcher[0m] Event turn_light_off Finished in 0.788814 seconds
+I [2015-03-13 23:59:35.367] [[32mDispatcher[0m] Started Event: turn_light_on
+I [2015-03-13 23:59:35.367] [[32mDispatcher[0m] [36mName:[0m turn_light_on
+I [2015-03-13 23:59:35.367] [[32mDispatcher[0m] [36mData:[0m "turn_on"
+I [2015-03-13 23:59:35.367] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:35.382] [[32mDispatcher[0m] Event turn_light_on Finished in 0.014802 seconds
+I [2015-03-13 23:59:40.772] [[32mDispatcher[0m] Started Event: turn_light_off
+I [2015-03-13 23:59:40.773] [[32mDispatcher[0m] [36mName:[0m turn_light_off
+I [2015-03-13 23:59:40.773] [[32mDispatcher[0m] [36mData:[0m "turn_off"
+I [2015-03-13 23:59:40.773] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:40.789] [[32mDispatcher[0m] Event turn_light_off Finished in 0.015895 seconds
+I [2015-03-13 23:59:41.583] [[32mDispatcher[0m] Started Event: turn_light_on
+I [2015-03-13 23:59:41.583] [[32mDispatcher[0m] [36mName:[0m turn_light_on
+I [2015-03-13 23:59:41.583] [[32mDispatcher[0m] [36mData:[0m "turn_on"
+I [2015-03-13 23:59:41.583] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:41.596] [[32mDispatcher[0m] Event turn_light_on Finished in 0.013103 seconds
+I [2015-03-13 23:59:43.473] [[32mDispatcher[0m] Started Event: turn_light_off
+I [2015-03-13 23:59:43.473] [[32mDispatcher[0m] [36mName:[0m turn_light_off
+I [2015-03-13 23:59:43.473] [[32mDispatcher[0m] [36mData:[0m "turn_off"
+I [2015-03-13 23:59:43.473] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:43.490] [[32mDispatcher[0m] Event turn_light_off Finished in 0.016875 seconds
+I [2015-03-13 23:59:44.812] [[32mDispatcher[0m] Started Event: turn_light_on
+I [2015-03-13 23:59:44.812] [[32mDispatcher[0m] [36mName:[0m turn_light_on
+I [2015-03-13 23:59:44.812] [[32mDispatcher[0m] [36mData:[0m "turn_on"
+I [2015-03-13 23:59:44.812] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:44.829] [[32mDispatcher[0m] Event turn_light_on Finished in 0.016409 seconds
+I [2015-03-13 23:59:46.679] [[32mDispatcher[0m] Started Event: turn_light_off
+I [2015-03-13 23:59:46.679] [[32mDispatcher[0m] [36mName:[0m turn_light_off
+I [2015-03-13 23:59:46.679] [[32mDispatcher[0m] [36mData:[0m "turn_off"
+I [2015-03-13 23:59:46.679] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:46.700] [[32mDispatcher[0m] Event turn_light_off Finished in 0.020662 seconds
+I [2015-03-13 23:59:47.354] [[32mDispatcher[0m] Started Event: turn_light_on
+I [2015-03-13 23:59:47.354] [[32mDispatcher[0m] [36mName:[0m turn_light_on
+I [2015-03-13 23:59:47.354] [[32mDispatcher[0m] [36mData:[0m "turn_on"
+I [2015-03-13 23:59:47.354] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:47.368] [[32mDispatcher[0m] Event turn_light_on Finished in 0.013359 seconds
+I [2015-03-13 23:59:48.922] [[32mDispatcher[0m] Started Event: turn_light_off
+I [2015-03-13 23:59:48.922] [[32mDispatcher[0m] [36mName:[0m turn_light_off
+I [2015-03-13 23:59:48.922] [[32mDispatcher[0m] [36mData:[0m "turn_off"
+I [2015-03-13 23:59:48.922] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:48.943] [[32mDispatcher[0m] Event turn_light_off Finished in 0.021 seconds
+I [2015-03-13 23:59:49.866] [[32mDispatcher[0m] Started Event: turn_light_on
+I [2015-03-13 23:59:49.866] [[32mDispatcher[0m] [36mName:[0m turn_light_on
+I [2015-03-13 23:59:49.866] [[32mDispatcher[0m] [36mData:[0m "turn_on"
+I [2015-03-13 23:59:49.866] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:49.881] [[32mDispatcher[0m] Event turn_light_on Finished in 0.015035 seconds
+I [2015-03-13 23:59:50.914] [[32mDispatcher[0m] Started Event: turn_light_off
+I [2015-03-13 23:59:50.914] [[32mDispatcher[0m] [36mName:[0m turn_light_off
+I [2015-03-13 23:59:50.914] [[32mDispatcher[0m] [36mData:[0m "turn_off"
+I [2015-03-13 23:59:50.915] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:50.931] [[32mDispatcher[0m] Event turn_light_off Finished in 0.016126 seconds
+I [2015-03-13 23:59:52.226] [[32mDispatcher[0m] Started Event: turn_light_on
+I [2015-03-13 23:59:52.227] [[32mDispatcher[0m] [36mName:[0m turn_light_on
+I [2015-03-13 23:59:52.227] [[32mDispatcher[0m] [36mData:[0m "turn_on"
+I [2015-03-13 23:59:52.228] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:52.363] [[32mDispatcher[0m] Event turn_light_on Finished in 0.013444 seconds
+I [2015-03-13 23:59:53.675] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-13 23:59:53.675] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-13 23:59:53.675] [[32mDispatcher[0m] [36mData:[0m {"red"=>189, "green"=>107, "blue"=>132}
+I [2015-03-13 23:59:53.675] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:53.677] [[32mDispatcher[0m] Event change_color Finished in 0.001813 seconds
+I [2015-03-13 23:59:54.664] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-13 23:59:54.664] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-13 23:59:54.665] [[32mDispatcher[0m] [36mData:[0m {"red"=>186, "green"=>29, "blue"=>78}
+I [2015-03-13 23:59:54.665] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:54.667] [[32mDispatcher[0m] Event change_color Finished in 0.002607 seconds
+I [2015-03-13 23:59:55.489] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-13 23:59:55.489] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-13 23:59:55.489] [[32mDispatcher[0m] [36mData:[0m {"red"=>227, "green"=>44, "blue"=>101}
+I [2015-03-13 23:59:55.490] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:55.493] [[32mDispatcher[0m] Event change_color Finished in 0.002941 seconds
+I [2015-03-13 23:59:56.193] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-13 23:59:56.194] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-13 23:59:56.194] [[32mDispatcher[0m] [36mData:[0m {"red"=>230, "green"=>219, "blue"=>222}
+I [2015-03-13 23:59:56.194] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:56.196] [[32mDispatcher[0m] Event change_color Finished in 0.002784 seconds
+I [2015-03-13 23:59:57.165] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-13 23:59:57.165] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-13 23:59:57.165] [[32mDispatcher[0m] [36mData:[0m {"red"=>250, "green"=>239, "blue"=>242}
+I [2015-03-13 23:59:57.166] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:57.168] [[32mDispatcher[0m] Event change_color Finished in 0.002773 seconds
+I [2015-03-13 23:59:57.915] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-13 23:59:57.915] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-13 23:59:57.915] [[32mDispatcher[0m] [36mData:[0m {"red"=>204, "green"=>121, "blue"=>147}
+I [2015-03-13 23:59:57.915] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:57.918] [[32mDispatcher[0m] Event change_color Finished in 0.002602 seconds
+I [2015-03-13 23:59:59.459] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-13 23:59:59.459] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-13 23:59:59.459] [[32mDispatcher[0m] [36mData:[0m {"red"=>74, "green"=>40, "blue"=>51}
+I [2015-03-13 23:59:59.459] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-13 23:59:59.462] [[32mDispatcher[0m] Event change_color Finished in 0.002707 seconds
+I [2015-03-14 00:00:00.110] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 00:00:00.110] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 00:00:00.110] [[32mDispatcher[0m] [36mData:[0m {"red"=>46, "green"=>46, "blue"=>46}
+I [2015-03-14 00:00:00.110] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-14 00:00:00.112] [[32mDispatcher[0m] Event change_color Finished in 0.002438 seconds
+I [2015-03-14 00:00:00.699] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 00:00:00.700] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 00:00:00.700] [[32mDispatcher[0m] [36mData:[0m {"red"=>18, "green"=>16, "blue"=>16}
+I [2015-03-14 00:00:00.700] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-14 00:00:00.702] [[32mDispatcher[0m] Event change_color Finished in 0.00265 seconds
+I [2015-03-14 00:00:01.219] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 00:00:01.219] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 00:00:01.219] [[32mDispatcher[0m] [36mData:[0m {"red"=>41, "green"=>10, "blue"=>20}
+I [2015-03-14 00:00:01.219] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-14 00:00:01.222] [[32mDispatcher[0m] Event change_color Finished in 0.002449 seconds
+I [2015-03-14 00:00:01.832] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 00:00:01.832] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 00:00:01.832] [[32mDispatcher[0m] [36mData:[0m {"red"=>148, "green"=>42, "blue"=>75}
+I [2015-03-14 00:00:01.832] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-14 00:00:01.835] [[32mDispatcher[0m] Event change_color Finished in 0.003296 seconds
+I [2015-03-14 00:00:02.963] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 00:00:02.963] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 00:00:02.963] [[32mDispatcher[0m] [36mData:[0m {"red"=>245, "green"=>231, "blue"=>236}
+I [2015-03-14 00:00:02.963] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-14 00:00:02.966] [[32mDispatcher[0m] Event change_color Finished in 0.002805 seconds
+I [2015-03-14 00:01:09.345] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 00:01:09.345] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 00:01:09.345] [[32mDispatcher[0m] [36mData:[0m {"red"=>234, "green"=>231, "blue"=>245}
+I [2015-03-14 00:01:09.345] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-14 00:01:09.348] [[32mDispatcher[0m] Event change_color Finished in 0.002644 seconds
+I [2015-03-14 00:01:10.305] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 00:01:10.305] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 00:01:10.305] [[32mDispatcher[0m] [36mData:[0m {"red"=>234, "green"=>245, "blue"=>231}
+I [2015-03-14 00:01:10.305] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-14 00:01:10.308] [[32mDispatcher[0m] Event change_color Finished in 0.00268 seconds
+I [2015-03-14 00:01:11.580] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 00:01:11.581] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 00:01:11.581] [[32mDispatcher[0m] [36mData:[0m {"red"=>245, "green"=>239, "blue"=>231}
+I [2015-03-14 00:01:11.581] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-14 00:01:11.583] [[32mDispatcher[0m] Event change_color Finished in 0.002658 seconds
+I [2015-03-14 00:01:12.511] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 00:01:12.511] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 00:01:12.511] [[32mDispatcher[0m] [36mData:[0m {"red"=>245, "green"=>241, "blue"=>231}
+I [2015-03-14 00:01:12.511] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-14 00:01:12.514] [[32mDispatcher[0m] Event change_color Finished in 0.001966 seconds
+I [2015-03-14 00:01:13.511] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 00:01:13.511] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 00:01:13.511] [[32mDispatcher[0m] [36mData:[0m {"red"=>245, "green"=>235, "blue"=>231}
+I [2015-03-14 00:01:13.511] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-14 00:01:13.514] [[32mDispatcher[0m] Event change_color Finished in 0.002014 seconds
+I [2015-03-14 00:01:15.484] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 00:01:15.485] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 00:01:15.485] [[32mDispatcher[0m] [36mData:[0m {"red"=>245, "green"=>234, "blue"=>231}
+I [2015-03-14 00:01:15.485] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-14 00:01:15.487] [[32mDispatcher[0m] Event change_color Finished in 0.002594 seconds
+I [2015-03-14 00:01:16.268] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 00:01:16.268] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 00:01:16.268] [[32mDispatcher[0m] [36mData:[0m {"red"=>245, "green"=>242, "blue"=>231}
+I [2015-03-14 00:01:16.268] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-14 00:01:16.272] [[32mDispatcher[0m] Event change_color Finished in 0.003057 seconds
+I [2015-03-14 00:01:17.323] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 00:01:17.323] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 00:01:17.323] [[32mDispatcher[0m] [36mData:[0m {"red"=>245, "green"=>238, "blue"=>231}
+I [2015-03-14 00:01:17.323] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-14 00:01:17.325] [[32mDispatcher[0m] Event change_color Finished in 0.002425 seconds
+I [2015-03-14 00:10:09.128] [[32mDispatcher[0m] Started Event: turn_light_off
+I [2015-03-14 00:10:09.128] [[32mDispatcher[0m] [36mName:[0m turn_light_off
+I [2015-03-14 00:10:09.128] [[32mDispatcher[0m] [36mData:[0m "turn_off"
+I [2015-03-14 00:10:09.128] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-14 00:10:09.154] [[32mDispatcher[0m] Event turn_light_off Finished in 0.025418 seconds
+I [2015-03-14 11:37:33.831] [[32mDispatcher[0m] Started Event: turn_light_on
+I [2015-03-14 11:37:33.831] [[32mDispatcher[0m] [36mName:[0m turn_light_on
+I [2015-03-14 11:37:33.831] [[32mDispatcher[0m] [36mData:[0m "turn_on"
+I [2015-03-14 11:37:33.831] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-14 11:37:33.892] [[32mDispatcher[0m] Event turn_light_on Finished in 0.060646 seconds
+I [2015-03-14 11:37:35.803] [[32mDispatcher[0m] Started Event: turn_light_off
+I [2015-03-14 11:37:35.804] [[32mDispatcher[0m] [36mName:[0m turn_light_off
+I [2015-03-14 11:37:35.804] [[32mDispatcher[0m] [36mData:[0m "turn_off"
+I [2015-03-14 11:37:35.805] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-14 11:37:35.120] [[32mDispatcher[0m] Event turn_light_off Finished in 0.04032 seconds
+I [2015-03-14 12:59:54.790] [[32mConnectionManager[0m] Connection opened: #<Connection::0e68cb47e315f6a14423>
+I [2015-03-14 13:13:56.224] [[32mConnectionManager[0m] Connection closed: #<Connection::e3b3e84bc6377bd288d1>
+I [2015-03-14 13:13:56.225] [[32mConnectionManager[0m] Connection closed: #<Connection::0e68cb47e315f6a14423>
+I [2015-03-14 13:13:56.226] [[32mConnectionManager[0m] Connection closed: #<Connection::18bc1818e37bf7223f6f>
+I [2015-03-14 13:13:58.866] [[32mConnectionManager[0m] Connection opened: #<Connection::2fe6cdf377a071bac8ee>
+I [2015-03-14 13:14:01.526] [[32mConnectionManager[0m] Connection closed: #<Connection::2fe6cdf377a071bac8ee>
+I [2015-03-14 13:14:03.618] [[32mConnectionManager[0m] Connection opened: #<Connection::fcc98312feab0e51117c>
+I [2015-03-14 13:31:28.903] [[32mConnectionManager[0m] Connection closed: #<Connection::fcc98312feab0e51117c>
+I [2015-03-14 13:31:31.947] [[32mConnectionManager[0m] Connection opened: #<Connection::2525c5787f8b16d909ec>
+I [2015-03-14 13:31:59.602] [[32mConnectionManager[0m] Connection closed: #<Connection::2525c5787f8b16d909ec>
+I [2015-03-14 13:32:01.779] [[32mConnectionManager[0m] Connection opened: #<Connection::bfbad21608860b6a4420>
+I [2015-03-14 13:33:06.914] [[32mConnectionManager[0m] Connection closed: #<Connection::bfbad21608860b6a4420>
+I [2015-03-14 13:33:09.458] [[32mConnectionManager[0m] Connection opened: #<Connection::6f09d47f2b9c87560143>
+I [2015-03-14 13:34:18.841] [[32mConnectionManager[0m] Connection closed: #<Connection::6f09d47f2b9c87560143>
+I [2015-03-14 13:34:20.977] [[32mConnectionManager[0m] Connection opened: #<Connection::2053ff00ff8162ea76ec>
+I [2015-03-14 13:34:50.688] [[32mConnectionManager[0m] Connection closed: #<Connection::2053ff00ff8162ea76ec>
+I [2015-03-14 13:34:52.862] [[32mConnectionManager[0m] Connection opened: #<Connection::6f0b409cfb56af69becf>
+I [2015-03-14 13:35:57.582] [[32mConnectionManager[0m] Connection closed: #<Connection::6f0b409cfb56af69becf>
+I [2015-03-14 13:35:59.720] [[32mConnectionManager[0m] Connection opened: #<Connection::602626a6c30f31a83dbb>
+I [2015-03-14 13:37:07.616] [[32mConnectionManager[0m] Connection closed: #<Connection::602626a6c30f31a83dbb>
+I [2015-03-14 13:37:09.701] [[32mConnectionManager[0m] Connection opened: #<Connection::685c90051ab95bbd0fda>
+I [2015-03-14 13:51:11.594] [[32mConnectionManager[0m] Connection closed: #<Connection::685c90051ab95bbd0fda>
+I [2015-03-14 13:51:13.944] [[32mConnectionManager[0m] Connection opened: #<Connection::7f398f008257ffb34479>
+I [2015-03-14 13:51:15.552] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 13:51:15.552] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 13:51:15.552] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.7}
+I [2015-03-14 13:51:15.552] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::7f398f008257ffb34479>
+I [2015-03-14 13:51:15.554] [[32mDispatcher[0m] Event change_brightness Finished in 0.001746 seconds
+I [2015-03-14 13:51:16.484] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 13:51:16.485] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 13:51:16.485] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.8}
+I [2015-03-14 13:51:16.485] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::7f398f008257ffb34479>
+I [2015-03-14 13:51:16.485] [[32mDispatcher[0m] Event change_brightness Finished in 0.000695 seconds
+I [2015-03-14 13:51:18.684] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 13:51:18.685] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 13:51:18.685] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.7}
+I [2015-03-14 13:51:18.685] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::7f398f008257ffb34479>
+I [2015-03-14 13:51:18.685] [[32mDispatcher[0m] Event change_brightness Finished in 0.000483 seconds
+I [2015-03-14 13:51:18.701] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 13:51:18.701] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 13:51:18.701] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.6}
+I [2015-03-14 13:51:18.701] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::7f398f008257ffb34479>
+I [2015-03-14 13:51:18.702] [[32mDispatcher[0m] Event change_brightness Finished in 0.000518 seconds
+I [2015-03-14 13:51:18.718] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 13:51:18.718] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 13:51:18.718] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.5}
+I [2015-03-14 13:51:18.718] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::7f398f008257ffb34479>
+I [2015-03-14 13:51:18.719] [[32mDispatcher[0m] Event change_brightness Finished in 0.00051 seconds
+I [2015-03-14 13:51:18.735] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 13:51:18.735] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 13:51:18.735] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.4}
+I [2015-03-14 13:51:18.735] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::7f398f008257ffb34479>
+I [2015-03-14 13:51:18.736] [[32mDispatcher[0m] Event change_brightness Finished in 0.000506 seconds
+I [2015-03-14 13:51:18.757] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 13:51:18.757] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 13:51:18.757] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.3}
+I [2015-03-14 13:51:18.757] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::7f398f008257ffb34479>
+I [2015-03-14 13:51:18.757] [[32mDispatcher[0m] Event change_brightness Finished in 0.00041 seconds
+I [2015-03-14 13:51:18.787] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 13:51:18.787] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 13:51:18.787] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.2}
+I [2015-03-14 13:51:18.787] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::7f398f008257ffb34479>
+I [2015-03-14 13:51:18.787] [[32mDispatcher[0m] Event change_brightness Finished in 0.000476 seconds
+I [2015-03-14 13:51:39.986] [[32mConnectionManager[0m] Connection closed: #<Connection::7f398f008257ffb34479>
+I [2015-03-14 13:51:42.276] [[32mConnectionManager[0m] Connection opened: #<Connection::d394e5f61ea380fc7eac>
+I [2015-03-14 13:51:51.344] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 13:51:51.345] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 13:51:51.345] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.7}
+I [2015-03-14 13:51:51.345] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d394e5f61ea380fc7eac>
+I [2015-03-14 13:51:51.351] [[32mDispatcher[0m] Event change_brightness Finished in 0.000538 seconds
+I [2015-03-14 13:52:02.284] [[32mConnectionManager[0m] Connection closed: #<Connection::d394e5f61ea380fc7eac>
+I [2015-03-14 13:52:26.701] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 13:52:26.702] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 13:52:26.702] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.8}
+I [2015-03-14 13:52:26.702] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d394e5f61ea380fc7eac>
+I [2015-03-14 13:53:20.950] [[32mDispatcher[0m] Event change_brightness Finished in 54.248169 seconds
+I [2015-03-14 13:53:20.969] [[32mConnectionManager[0m] Connection opened: #<Connection::548b007d2d39465e1e1e>
+I [2015-03-14 13:53:20.970] [[32mConnectionManager[0m] Connection closed: #<Connection::d394e5f61ea380fc7eac>
+I [2015-03-14 13:53:20.972] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 13:53:20.972] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 13:53:20.972] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.7}
+I [2015-03-14 13:53:20.972] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::548b007d2d39465e1e1e>
+I [2015-03-14 13:53:24.310] [[32mDispatcher[0m] Event change_brightness Finished in 3.337384 seconds
+I [2015-03-14 13:59:32.321] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 13:59:32.321] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 13:59:32.321] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.6}
+I [2015-03-14 13:59:32.321] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::548b007d2d39465e1e1e>
+I [2015-03-14 13:59:57.190] [[32mDispatcher[0m] Event change_brightness Finished in 24.869067 seconds
+I [2015-03-14 14:00:13.875] [[32mConnectionManager[0m] Connection closed: #<Connection::548b007d2d39465e1e1e>
+I [2015-03-14 14:00:16.118] [[32mConnectionManager[0m] Connection opened: #<Connection::9ee40a7b44b03e61fd40>
+I [2015-03-14 14:00:26.102] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 14:00:26.102] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 14:00:26.102] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.7}
+I [2015-03-14 14:00:26.102] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::9ee40a7b44b03e61fd40>
+I [2015-03-14 14:04:19.876] [[32mDispatcher[0m] Event change_brightness Finished in 233.774066 seconds
+I [2015-03-14 14:04:27.916] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 14:04:27.916] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 14:04:27.916] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.6}
+I [2015-03-14 14:04:27.916] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::9ee40a7b44b03e61fd40>
+I [2015-03-14 14:19:48.538] [[32mDispatcher[0m] Event change_brightness Finished in 920.622214 seconds
+I [2015-03-14 14:19:48.539] [[32mConnectionManager[0m] Connection closed: #<Connection::9ee40a7b44b03e61fd40>
+I [2015-03-14 14:19:48.563] [[32mConnectionManager[0m] Connection opened: #<Connection::e11e64381d3a534106ca>
+I [2015-03-14 14:19:48.565] [[32mConnectionManager[0m] Connection opened: #<Connection::40ea226a708f9a174a3b>
+I [2015-03-14 14:19:48.567] [[32mConnectionManager[0m] Connection opened: #<Connection::fadcae34dc32740294d1>
+I [2015-03-14 14:19:48.569] [[32mConnectionManager[0m] Connection opened: #<Connection::ae3912874217eab0648a>
+I [2015-03-14 14:19:48.572] [[32mConnectionManager[0m] Connection closed: #<Connection::e11e64381d3a534106ca>
+I [2015-03-14 14:19:48.573] [[32mConnectionManager[0m] Connection closed: #<Connection::40ea226a708f9a174a3b>
+I [2015-03-14 14:19:48.573] [[32mConnectionManager[0m] Connection closed: #<Connection::fadcae34dc32740294d1>
+I [2015-03-14 14:19:48.575] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 14:19:48.575] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 14:19:48.575] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.04}
+I [2015-03-14 14:19:48.575] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::ae3912874217eab0648a>
+I [2015-03-14 14:19:48.579] [[32mDispatcher[0m] Event change_brightness Finished in 0.003973 seconds
+I [2015-03-14 14:19:59.589] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 14:19:59.589] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 14:19:59.589] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.96}
+I [2015-03-14 14:19:59.589] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::ae3912874217eab0648a>
+I [2015-03-14 14:19:59.593] [[32mDispatcher[0m] Event change_brightness Finished in 0.003646 seconds
+I [2015-03-14 14:20:17.428] [[32mConnectionManager[0m] Connection closed: #<Connection::ae3912874217eab0648a>
+I [2015-03-14 14:20:19.159] [[32mConnectionManager[0m] Connection opened: #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:20:20.896] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 14:20:20.896] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 14:20:20.897] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>1}
+I [2015-03-14 14:20:20.897] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:20:20.900] [[32mDispatcher[0m] Event change_brightness Finished in 0.00296 seconds
+I [2015-03-14 14:20:24.626] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 14:20:24.626] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 14:20:24.626] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.07}
+I [2015-03-14 14:20:24.626] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:20:24.629] [[32mDispatcher[0m] Event change_brightness Finished in 0.002691 seconds
+I [2015-03-14 14:20:30.298] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 14:20:30.298] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 14:20:30.298] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.32}
+I [2015-03-14 14:20:30.298] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:20:30.300] [[32mDispatcher[0m] Event change_brightness Finished in 0.002598 seconds
+I [2015-03-14 14:20:32.195] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 14:20:32.195] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 14:20:32.195] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.59}
+I [2015-03-14 14:20:32.195] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:20:32.198] [[32mDispatcher[0m] Event change_brightness Finished in 0.002782 seconds
+I [2015-03-14 14:20:33.629] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 14:20:33.630] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 14:20:33.630] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.78}
+I [2015-03-14 14:20:33.630] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:20:33.632] [[32mDispatcher[0m] Event change_brightness Finished in 0.00275 seconds
+I [2015-03-14 14:20:36.313] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 14:20:36.313] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 14:20:36.313] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.14}
+I [2015-03-14 14:20:36.313] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:20:36.316] [[32mDispatcher[0m] Event change_brightness Finished in 0.003075 seconds
+I [2015-03-14 14:28:31.924] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 14:28:31.924] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 14:28:31.924] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.41}
+I [2015-03-14 14:28:31.924] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:28:31.928] [[32mDispatcher[0m] Event change_brightness Finished in 0.003698 seconds
+I [2015-03-14 14:28:33.389] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 14:28:33.389] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 14:28:33.389] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.68}
+I [2015-03-14 14:28:33.389] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:28:33.393] [[32mDispatcher[0m] Event change_brightness Finished in 0.003966 seconds
+I [2015-03-14 14:28:34.479] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 14:28:34.479] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 14:28:34.479] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.94}
+I [2015-03-14 14:28:34.479] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:28:34.482] [[32mDispatcher[0m] Event change_brightness Finished in 0.002925 seconds
+I [2015-03-14 14:28:38.493] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 14:28:38.493] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 14:28:38.493] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.05}
+I [2015-03-14 14:28:38.494] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:28:38.496] [[32mDispatcher[0m] Event change_brightness Finished in 0.002857 seconds
+I [2015-03-14 14:28:48.741] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 14:28:48.741] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 14:28:48.741] [[32mDispatcher[0m] [36mData:[0m {"red"=>222, "green"=>28, "blue"=>88}
+I [2015-03-14 14:28:48.741] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:28:48.744] [[32mDispatcher[0m] Event change_color Finished in 0.002434 seconds
+I [2015-03-14 14:28:51.839] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 14:28:51.839] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 14:28:51.839] [[32mDispatcher[0m] [36mData:[0m {"red"=>90, "green"=>28, "blue"=>222}
+I [2015-03-14 14:28:51.839] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:28:51.842] [[32mDispatcher[0m] Event change_color Finished in 0.002857 seconds
+I [2015-03-14 14:28:52.843] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 14:28:52.843] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 14:28:52.843] [[32mDispatcher[0m] [36mData:[0m {"red"=>84, "green"=>11, "blue"=>240}
+I [2015-03-14 14:28:52.843] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:28:52.845] [[32mDispatcher[0m] Event change_color Finished in 0.002576 seconds
+I [2015-03-14 14:28:55.124] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 14:28:55.124] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 14:28:55.124] [[32mDispatcher[0m] [36mData:[0m {"red"=>46, "green"=>14, "blue"=>115}
+I [2015-03-14 14:28:55.125] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:28:55.127] [[32mDispatcher[0m] Event change_color Finished in 0.002843 seconds
+I [2015-03-14 14:28:56.184] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 14:28:56.184] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 14:28:56.184] [[32mDispatcher[0m] [36mData:[0m {"red"=>27, "green"=>8, "blue"=>69}
+I [2015-03-14 14:28:56.184] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:28:56.187] [[32mDispatcher[0m] Event change_color Finished in 0.002749 seconds
+I [2015-03-14 14:28:58.166] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 14:28:58.166] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 14:28:58.166] [[32mDispatcher[0m] [36mData:[0m {"red"=>16, "green"=>3, "blue"=>43}
+I [2015-03-14 14:28:58.166] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:28:58.169] [[32mDispatcher[0m] Event change_color Finished in 0.002577 seconds
+I [2015-03-14 14:28:59.198] [[32mDispatcher[0m] Started Event: change_color
+I [2015-03-14 14:28:59.198] [[32mDispatcher[0m] [36mName:[0m change_color
+I [2015-03-14 14:28:59.198] [[32mDispatcher[0m] [36mData:[0m {"red"=>7, "green"=>1, "blue"=>18}
+I [2015-03-14 14:28:59.198] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:28:59.201] [[32mDispatcher[0m] Event change_color Finished in 0.002813 seconds
+I [2015-03-14 14:33:59.824] [[32mConnectionManager[0m] Connection opened: #<Connection::218cda31da1ea7ce0bae>
+I [2015-03-14 14:34:16.377] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 14:34:16.377] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 14:34:16.377] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>1}
+I [2015-03-14 14:34:16.377] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:34:16.381] [[32mDispatcher[0m] Event change_brightness Finished in 0.003779 seconds
+I [2015-03-14 14:34:23.250] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 14:34:23.250] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 14:34:23.250] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.07}
+I [2015-03-14 14:34:23.250] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:34:23.253] [[32mDispatcher[0m] Event change_brightness Finished in 0.00312 seconds
+I [2015-03-14 14:34:25.508] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 14:34:25.508] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 14:34:25.508] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>1}
+I [2015-03-14 14:34:25.508] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:34:25.511] [[32mDispatcher[0m] Event change_brightness Finished in 0.002906 seconds
+I [2015-03-14 14:34:28.653] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 14:34:28.653] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 14:34:28.653] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.7}
+I [2015-03-14 14:34:28.653] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:34:28.657] [[32mDispatcher[0m] Event change_brightness Finished in 0.003153 seconds
+I [2015-03-14 14:34:31.380] [[32mDispatcher[0m] Started Event: change_brightness
+I [2015-03-14 14:34:31.380] [[32mDispatcher[0m] [36mName:[0m change_brightness
+I [2015-03-14 14:34:31.380] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.56}
+I [2015-03-14 14:34:31.380] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 14:34:31.384] [[32mDispatcher[0m] Event change_brightness Finished in 0.003395 seconds
+I [2015-03-14 15:29:28.730] [[32mDispatcher[0m] Started Event: turn_light_off
+I [2015-03-14 15:29:28.731] [[32mDispatcher[0m] [36mName:[0m turn_light_off
+I [2015-03-14 15:29:28.731] [[32mDispatcher[0m] [36mData:[0m "turn_off"
+I [2015-03-14 15:29:28.731] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1d511150af476b60c1c0>
+I [2015-03-14 15:29:28.853] [[32mDispatcher[0m] Event turn_light_off Finished in 0.122447 seconds

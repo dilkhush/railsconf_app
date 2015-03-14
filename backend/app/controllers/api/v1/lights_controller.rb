@@ -20,5 +20,10 @@ class Api::V1::LightsController < WebsocketRails::BaseController
 		controller_store[:light].set_rgb(red, green, blue)
 	end
 
+	def change_brightness
+		brightness = message[:brightness]
+		controller_store[:light].change_brightness(brightness)
+	end
+
 end
 

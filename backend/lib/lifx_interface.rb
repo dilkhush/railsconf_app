@@ -12,28 +12,16 @@ class LifxInterface
 	end	
 
 	def turn_on
-		light.turn_on!
+		light.turn_on!	
 	end
 
 	def turn_off
 		light.turn_off!
 	end
 
-	# def set_blue
-	# 	light.set_color LIFX::Color.blue, duration: 0
-	# end
-
-	# def reset
-	# 	light.set_color LIFX::Color.white, duration: 0
-	# end
-
-	# def set_red
-	# 	light.set_color LIFX::Color.red, duration: 0
-	# end
-
-	# def set_green
-	# 	light.set_color LIFX::Color.green, duration: 0
-	# end
+	def change_brightness(brightness)
+		light.set_color(light.color.with_brightness(brightness))
+	end
 
 	def set_rgb(r, g, b)
 	    light.set_color(LIFX::Color.rgb(r, g, b), duration: 0)
