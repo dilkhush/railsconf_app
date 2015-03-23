@@ -31,6 +31,18 @@ class LifxInterface
 		light.on?
 	end
 
+
+	def party_lights
+		$stop_party = false
+		Thread.new do
+			until $stop_party == true
+				random_color  = LIFX::Color.random_color(saturation: 0.5)
+				@light.set_color(random_color, duration: 0)
+				sleep (60/128.to_f)
+			end
+		end
+	end
+
 	# def create_party
 	# 	count = 0
 	# 	loop do

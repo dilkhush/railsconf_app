@@ -4552,3 +4552,622 @@ I [2015-03-20 23:04:27.779] [[32mChannel[0m] [motion_detector] {"status"=>"Mot
 I [2015-03-20 23:04:37.580] [[32mChannel[0m] [motion_detector] {"status"=>"No motion currently detected"}
 I [2015-03-20 23:04:41.927] [[32mChannel[0m] #<Connection::1174bef1d7c0b6ff81af> unsubscribed from channel motion_detector
 I [2015-03-20 23:04:41.927] [[32mConnectionManager[0m] Connection closed: #<Connection::1174bef1d7c0b6ff81af>
+I [2015-03-21 01:23:30.689] [[32mConnectionManager[0m] Connection opened: #<Connection::990c3e1281899c30fead>
+I [2015-03-21 01:23:30.148] [[32mChannel[0m] #<Connection::990c3e1281899c30fead> subscribed to channel motion_detector
+I [2015-03-21 01:23:30.148] [[32mChannel[0m] sending token
+I [2015-03-21 01:23:31.511] [[32mDispatcher[0m] Started Event: motion_detector.create
+I [2015-03-21 01:23:31.511] [[32mDispatcher[0m] [36mName:[0m motion_detector.create
+I [2015-03-21 01:23:31.511] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::990c3e1281899c30fead>
+I [2015-03-21 01:23:31.515] [[32mDispatcher[0m] Event motion_detector.create Finished in 0.001318 seconds
+I [2015-03-21 01:23:53.810] [[32mChannel[0m] #<Connection::990c3e1281899c30fead> unsubscribed from channel motion_detector
+I [2015-03-21 01:23:53.811] [[32mConnectionManager[0m] Connection closed: #<Connection::990c3e1281899c30fead>
+I [2015-03-21 01:23:55.409] [[32mConnectionManager[0m] Connection opened: #<Connection::772f6a70c629529176d9>
+I [2015-03-21 01:23:55.492] [[32mChannel[0m] #<Connection::772f6a70c629529176d9> subscribed to channel motion_detector
+I [2015-03-21 01:23:55.492] [[32mChannel[0m] sending token
+I [2015-03-21 01:23:58.878] [[32mChannel[0m] #<Connection::772f6a70c629529176d9> unsubscribed from channel motion_detector
+I [2015-03-21 01:23:58.878] [[32mConnectionManager[0m] Connection closed: #<Connection::772f6a70c629529176d9>
+I [2015-03-21 01:24:07.418] [[32mConnectionManager[0m] Connection opened: #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:24:07.569] [[32mChannel[0m] #<Connection::f73f31b92f8201f145d0> subscribed to channel motion_detector
+I [2015-03-21 01:24:07.569] [[32mChannel[0m] sending token
+I [2015-03-21 01:24:09.755] [[32mDispatcher[0m] Started Event: motion_detector.create
+I [2015-03-21 01:24:09.756] [[32mDispatcher[0m] [36mName:[0m motion_detector.create
+I [2015-03-21 01:24:09.756] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:24:09.782] [[32mDispatcher[0m] Event motion_detector.create Finished in 0.001125 seconds
+I [2015-03-21 01:24:12.556] [[32mChannel[0m] [motion_detector] {"status"=>"Motion has been detected"}
+I [2015-03-21 01:24:38.673] [[32mDispatcher[0m] Started Event: motion_detector.destroy
+I [2015-03-21 01:24:38.673] [[32mDispatcher[0m] [36mName:[0m motion_detector.destroy
+I [2015-03-21 01:24:38.673] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:24:38.686] [[32mDispatcher[0m] Event motion_detector.destroy Finished in 0.012494 seconds
+I [2015-03-21 01:24:38.691] [[32mDispatcher[0m] Started Event: lights.show
+I [2015-03-21 01:24:38.692] [[32mDispatcher[0m] [36mName:[0m lights.show
+I [2015-03-21 01:24:38.692] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-03-21 01:24:38.692] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:24:39.209] [[32mDispatcher[0m] Event lights.show Finished in 0.517076 seconds
+I [2015-03-21 01:24:40.494] [[32mDispatcher[0m] Started Event: motion_detector.destroy
+I [2015-03-21 01:24:40.494] [[32mDispatcher[0m] [36mName:[0m motion_detector.destroy
+I [2015-03-21 01:24:40.494] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:24:40.495] [[32mDispatcher[0m] Event motion_detector.destroy Finished in 0.000415 seconds
+I [2015-03-21 01:24:41.900] [[32mDispatcher[0m] Started Event: coffee_maker.create
+I [2015-03-21 01:24:41.900] [[32mDispatcher[0m] [36mName:[0m coffee_maker.create
+I [2015-03-21 01:24:41.900] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:24:44.919] [[32mDispatcher[0m] Event coffee_maker.create Finished in 3.018678 seconds
+I [2015-03-21 01:24:47.986] [[32mDispatcher[0m] Started Event: coffee_maker.destroy
+I [2015-03-21 01:24:47.986] [[32mDispatcher[0m] [36mName:[0m coffee_maker.destroy
+I [2015-03-21 01:24:47.986] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:24:48.106] [[32mDispatcher[0m] Event coffee_maker.destroy Finished in 0.01477 seconds
+I [2015-03-21 01:25:19.789] [[32mDispatcher[0m] Started Event: coffee_maker.create
+I [2015-03-21 01:25:19.789] [[32mDispatcher[0m] [36mName:[0m coffee_maker.create
+I [2015-03-21 01:25:19.789] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:25:22.812] [[32mDispatcher[0m] Event coffee_maker.create Finished in 3.023197 seconds
+I [2015-03-21 01:25:23.640] [[32mDispatcher[0m] Started Event: coffee_maker.destroy
+I [2015-03-21 01:25:23.640] [[32mDispatcher[0m] [36mName:[0m coffee_maker.destroy
+I [2015-03-21 01:25:23.640] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:25:23.656] [[32mDispatcher[0m] Event coffee_maker.destroy Finished in 0.015447 seconds
+I [2015-03-21 01:25:26.871] [[32mDispatcher[0m] Started Event: motion_detector.destroy
+I [2015-03-21 01:25:26.871] [[32mDispatcher[0m] [36mName:[0m motion_detector.destroy
+I [2015-03-21 01:25:26.872] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:25:26.875] [[32mDispatcher[0m] Event motion_detector.destroy Finished in 0.000312 seconds
+I [2015-03-21 01:25:26.957] [[32mDispatcher[0m] Started Event: lights.show
+I [2015-03-21 01:25:26.958] [[32mDispatcher[0m] [36mName:[0m lights.show
+I [2015-03-21 01:25:26.959] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-03-21 01:25:26.961] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:25:26.972] [[32mDispatcher[0m] Event lights.show Finished in 0.001061 seconds
+I [2015-03-21 01:25:27.577] [[32mDispatcher[0m] Started Event: lights.destroy
+I [2015-03-21 01:25:27.577] [[32mDispatcher[0m] [36mName:[0m lights.destroy
+I [2015-03-21 01:25:27.577] [[32mDispatcher[0m] [36mData:[0m "turn_off"
+I [2015-03-21 01:25:27.577] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:25:27.592] [[32mDispatcher[0m] Event lights.destroy Finished in 0.01518 seconds
+I [2015-03-21 01:25:28.414] [[32mDispatcher[0m] Started Event: lights.create
+I [2015-03-21 01:25:28.414] [[32mDispatcher[0m] [36mName:[0m lights.create
+I [2015-03-21 01:25:28.415] [[32mDispatcher[0m] [36mData:[0m "turn_on"
+I [2015-03-21 01:25:28.415] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:25:28.428] [[32mDispatcher[0m] Event lights.create Finished in 0.012872 seconds
+I [2015-03-21 01:25:30.835] [[32mDispatcher[0m] Started Event: lights.update
+I [2015-03-21 01:25:30.836] [[32mDispatcher[0m] [36mName:[0m lights.update
+I [2015-03-21 01:25:30.836] [[32mDispatcher[0m] [36mData:[0m {"color"=>{"red"=>179, "green"=>25, "blue"=>73}}
+I [2015-03-21 01:25:30.836] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:25:30.838] [[32mDispatcher[0m] Event lights.update Finished in 0.002556 seconds
+I [2015-03-21 01:25:30.865] [[32mDispatcher[0m] Started Event: lights.update
+I [2015-03-21 01:25:30.865] [[32mDispatcher[0m] [36mName:[0m lights.update
+I [2015-03-21 01:25:30.865] [[32mDispatcher[0m] [36mData:[0m {"color"=>{"red"=>179, "green"=>24, "blue"=>72}}
+I [2015-03-21 01:25:30.865] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:25:30.867] [[32mDispatcher[0m] Event lights.update Finished in 0.001837 seconds
+I [2015-03-21 01:25:31.794] [[32mDispatcher[0m] Started Event: lights.update
+I [2015-03-21 01:25:31.794] [[32mDispatcher[0m] [36mName:[0m lights.update
+I [2015-03-21 01:25:31.794] [[32mDispatcher[0m] [36mData:[0m {"color"=>{"red"=>179, "green"=>107, "blue"=>24}}
+I [2015-03-21 01:25:31.794] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:25:31.797] [[32mDispatcher[0m] Event lights.update Finished in 0.00288 seconds
+I [2015-03-21 01:25:33.436] [[32mDispatcher[0m] Started Event: lights.update
+I [2015-03-21 01:25:33.436] [[32mDispatcher[0m] [36mName:[0m lights.update
+I [2015-03-21 01:25:33.436] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.8}
+I [2015-03-21 01:25:33.436] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:25:33.439] [[32mDispatcher[0m] Event lights.update Finished in 0.002869 seconds
+I [2015-03-21 01:25:34.942] [[32mDispatcher[0m] Started Event: lights.update
+I [2015-03-21 01:25:34.942] [[32mDispatcher[0m] [36mName:[0m lights.update
+I [2015-03-21 01:25:34.943] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.94}
+I [2015-03-21 01:25:34.943] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:25:34.946] [[32mDispatcher[0m] Event lights.update Finished in 0.003389 seconds
+I [2015-03-21 01:25:36.230] [[32mDispatcher[0m] Started Event: lights.update
+I [2015-03-21 01:25:36.230] [[32mDispatcher[0m] [36mName:[0m lights.update
+I [2015-03-21 01:25:36.230] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.01}
+I [2015-03-21 01:25:36.230] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:25:36.233] [[32mDispatcher[0m] Event lights.update Finished in 0.002901 seconds
+I [2015-03-21 01:25:38.340] [[32mDispatcher[0m] Started Event: lights.update
+I [2015-03-21 01:25:38.341] [[32mDispatcher[0m] [36mName:[0m lights.update
+I [2015-03-21 01:25:38.341] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.05}
+I [2015-03-21 01:25:38.342] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 01:25:38.371] [[32mDispatcher[0m] Event lights.update Finished in 0.002878 seconds
+I [2015-03-21 02:15:10.908] [[32mChannel[0m] #<Connection::f73f31b92f8201f145d0> unsubscribed from channel motion_detector
+I [2015-03-21 02:15:10.908] [[32mConnectionManager[0m] Connection closed: #<Connection::f73f31b92f8201f145d0>
+I [2015-03-21 14:41:13.944] [[32mConnectionManager[0m] Connection opened: #<Connection::09ee5bc5a0bed9f83300>
+I [2015-03-21 14:41:14.865] [[32mDispatcher[0m] Started Event: lights.show
+I [2015-03-21 14:41:14.865] [[32mDispatcher[0m] [36mName:[0m lights.show
+I [2015-03-21 14:41:14.866] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-03-21 14:41:14.866] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::09ee5bc5a0bed9f83300>
+I [2015-03-21 14:41:18.615] [[32mDispatcher[0m] Event lights.show Finished in 4.528389 seconds
+I [2015-03-21 14:41:28.503] [[32mDispatcher[0m] Started Event: lights.destroy
+I [2015-03-21 14:41:28.503] [[32mDispatcher[0m] [36mName:[0m lights.destroy
+I [2015-03-21 14:41:28.503] [[32mDispatcher[0m] [36mData:[0m "turn_off"
+I [2015-03-21 14:41:28.503] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::09ee5bc5a0bed9f83300>
+I [2015-03-21 14:41:28.516] [[32mDispatcher[0m] Event lights.destroy Finished in 0.012039 seconds
+I [2015-03-21 14:41:29.569] [[32mDispatcher[0m] Started Event: lights.create
+I [2015-03-21 14:41:29.569] [[32mDispatcher[0m] [36mName:[0m lights.create
+I [2015-03-21 14:41:29.569] [[32mDispatcher[0m] [36mData:[0m "turn_on"
+I [2015-03-21 14:41:29.569] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::09ee5bc5a0bed9f83300>
+I [2015-03-21 14:41:29.582] [[32mDispatcher[0m] Event lights.create Finished in 0.012558 seconds
+I [2015-03-21 14:41:33.732] [[32mDispatcher[0m] Started Event: lights.update
+I [2015-03-21 14:41:33.732] [[32mDispatcher[0m] [36mName:[0m lights.update
+I [2015-03-21 14:41:33.732] [[32mDispatcher[0m] [36mData:[0m {"color"=>{"red"=>168, "green"=>146, "blue"=>255}}
+I [2015-03-21 14:41:33.732] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::09ee5bc5a0bed9f83300>
+I [2015-03-21 14:41:33.734] [[32mDispatcher[0m] Event lights.update Finished in 0.001898 seconds
+I [2015-03-21 14:41:40.567] [[32mDispatcher[0m] Started Event: lights.update
+I [2015-03-21 14:41:40.567] [[32mDispatcher[0m] [36mName:[0m lights.update
+I [2015-03-21 14:41:40.567] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.08}
+I [2015-03-21 14:41:40.567] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::09ee5bc5a0bed9f83300>
+I [2015-03-21 14:41:40.570] [[32mDispatcher[0m] Event lights.update Finished in 0.002563 seconds
+I [2015-03-21 14:41:42.283] [[32mDispatcher[0m] Started Event: lights.update
+I [2015-03-21 14:41:42.283] [[32mDispatcher[0m] [36mName:[0m lights.update
+I [2015-03-21 14:41:42.283] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.02}
+I [2015-03-21 14:41:42.283] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::09ee5bc5a0bed9f83300>
+I [2015-03-21 14:41:42.286] [[32mDispatcher[0m] Event lights.update Finished in 0.002602 seconds
+I [2015-03-21 14:41:43.918] [[32mDispatcher[0m] Started Event: lights.update
+I [2015-03-21 14:41:43.918] [[32mDispatcher[0m] [36mName:[0m lights.update
+I [2015-03-21 14:41:43.918] [[32mDispatcher[0m] [36mData:[0m {"brightness"=>0.98}
+I [2015-03-21 14:41:43.918] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::09ee5bc5a0bed9f83300>
+I [2015-03-21 14:41:43.921] [[32mDispatcher[0m] Event lights.update Finished in 0.00251 seconds
+I [2015-03-21 14:41:51.143] [[32mDispatcher[0m] Started Event: coffee_maker.create
+I [2015-03-21 14:41:51.143] [[32mDispatcher[0m] [36mName:[0m coffee_maker.create
+I [2015-03-21 14:41:51.144] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::09ee5bc5a0bed9f83300>
+I [2015-03-21 14:41:54.472] [[32mDispatcher[0m] Event coffee_maker.create Finished in 3.03267 seconds
+I [2015-03-21 14:41:56.616] [[32mDispatcher[0m] Started Event: coffee_maker.destroy
+I [2015-03-21 14:41:56.616] [[32mDispatcher[0m] [36mName:[0m coffee_maker.destroy
+I [2015-03-21 14:41:56.616] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::09ee5bc5a0bed9f83300>
+I [2015-03-21 14:41:56.631] [[32mDispatcher[0m] Event coffee_maker.destroy Finished in 0.014813 seconds
+I [2015-03-21 14:41:59.850] [[32mDispatcher[0m] Started Event: sonos.create
+I [2015-03-21 14:41:59.850] [[32mDispatcher[0m] [36mName:[0m sonos.create
+I [2015-03-21 14:41:59.850] [[32mDispatcher[0m] [36mData:[0m {"song"=>"study"}
+I [2015-03-21 14:41:59.850] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::09ee5bc5a0bed9f83300>
+I [2015-03-21 14:42:05.888] [[32mDispatcher[0m] Event sonos.create Finished in 6.038194 seconds
+I [2015-03-21 14:42:07.691] [[32mDispatcher[0m] Started Event: sonos.destroy
+I [2015-03-21 14:42:07.692] [[32mDispatcher[0m] [36mName:[0m sonos.destroy
+I [2015-03-21 14:42:07.692] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::09ee5bc5a0bed9f83300>
+I [2015-03-21 14:42:07.713] [[32mDispatcher[0m] Event sonos.destroy Finished in 0.021704 seconds
+I [2015-03-22 20:43:57.638] [[32mDispatcher[0m] Started Event: lights.show
+I [2015-03-22 20:43:57.639] [[32mDispatcher[0m] [36mName:[0m lights.show
+I [2015-03-22 20:43:57.639] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-03-22 20:43:57.639] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::09ee5bc5a0bed9f83300>
+I [2015-03-22 20:43:57.642] [[32mDispatcher[0m] Event lights.show Finished in 0.001861 seconds
+I [2015-03-22 20:43:59.397] [[32mDispatcher[0m] Started Event: lights.destroy
+I [2015-03-22 20:43:59.397] [[32mDispatcher[0m] [36mName:[0m lights.destroy
+I [2015-03-22 20:43:59.397] [[32mDispatcher[0m] [36mData:[0m "turn_off"
+I [2015-03-22 20:43:59.397] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::09ee5bc5a0bed9f83300>
+E [2015-03-22 20:44:02.402] [[31mDispatcher[0m] LIFX::Light::MessageTimeout: set_power!: Timeout exceeded waiting for response from #<LIFX::Light id=d073d500de46 label=karims_light power=on>
+E [2015-03-22 20:44:02.402] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/lifx-0.4.11/lib/lifx/light.rb:122:in `set_power!'
+E [2015-03-22 20:44:02.402] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/lifx-0.4.11/lib/lifx/light.rb:141:in `turn_off!'
+E [2015-03-22 20:44:02.402] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/lib/lifx_interface.rb:19:in `turn_off'
+E [2015-03-22 20:44:02.402] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/lights_controller.rb:31:in `destroy'
+E [2015-03-22 20:44:02.402] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 20:44:02.402] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 20:44:02.403] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 20:44:02.403] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 20:44:02.403] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 20:44:02.403] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 20:44:02.403] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 20:44:02.403] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 20:44:02.410] [[32mConnectionManager[0m] Connection closed: #<Connection::09ee5bc5a0bed9f83300>
+I [2015-03-22 20:44:24.759] [[32mConnectionManager[0m] Connection opened: #<Connection::28befa29408df19c21c2>
+I [2015-03-22 20:44:24.907] [[32mDispatcher[0m] Started Event: lights.show
+I [2015-03-22 20:44:24.908] [[32mDispatcher[0m] [36mName:[0m lights.show
+I [2015-03-22 20:44:24.908] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-03-22 20:44:24.908] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::28befa29408df19c21c2>
+I [2015-03-22 20:44:25.422] [[32mDispatcher[0m] Event lights.show Finished in 0.514235 seconds
+I [2015-03-22 20:44:32.135] [[32mDispatcher[0m] Started Event: lights.destroy
+I [2015-03-22 20:44:32.135] [[32mDispatcher[0m] [36mName:[0m lights.destroy
+I [2015-03-22 20:44:32.135] [[32mDispatcher[0m] [36mData:[0m "turn_off"
+I [2015-03-22 20:44:32.135] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::28befa29408df19c21c2>
+I [2015-03-22 20:44:32.170] [[32mDispatcher[0m] Event lights.destroy Finished in 0.035179 seconds
+I [2015-03-22 20:44:33.886] [[32mDispatcher[0m] Started Event: lights.create
+I [2015-03-22 20:44:33.893] [[32mDispatcher[0m] [36mName:[0m lights.create
+I [2015-03-22 20:44:33.896] [[32mDispatcher[0m] [36mData:[0m "turn_on"
+I [2015-03-22 20:44:33.899] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::28befa29408df19c21c2>
+I [2015-03-22 20:44:33.211] [[32mDispatcher[0m] Event lights.create Finished in 0.011975 seconds
+I [2015-03-22 22:34:16.776] [[32mConnectionManager[0m] Connection closed: #<Connection::28befa29408df19c21c2>
+I [2015-03-22 22:34:18.925] [[32mConnectionManager[0m] Connection opened: #<Connection::b58b73d99b61ed29b4fc>
+I [2015-03-22 22:35:37.318] [[32mConnectionManager[0m] Connection closed: #<Connection::b58b73d99b61ed29b4fc>
+I [2015-03-22 22:35:39.468] [[32mConnectionManager[0m] Connection opened: #<Connection::d96bb81956414cc7284c>
+I [2015-03-22 22:38:47.447] [[32mConnectionManager[0m] Connection closed: #<Connection::d96bb81956414cc7284c>
+I [2015-03-22 22:38:49.688] [[32mConnectionManager[0m] Connection opened: #<Connection::ac8a103883cae390f4ad>
+I [2015-03-22 22:39:50.914] [[32mConnectionManager[0m] Connection closed: #<Connection::ac8a103883cae390f4ad>
+I [2015-03-22 22:39:53.488] [[32mConnectionManager[0m] Connection opened: #<Connection::9a1c9bb9463bafbb909a>
+I [2015-03-22 22:40:24.920] [[32mConnectionManager[0m] Connection closed: #<Connection::9a1c9bb9463bafbb909a>
+I [2015-03-22 22:40:26.347] [[32mConnectionManager[0m] Connection opened: #<Connection::93c833b93140146afcda>
+I [2015-03-22 22:44:41.840] [[32mConnectionManager[0m] Connection closed: #<Connection::93c833b93140146afcda>
+I [2015-03-22 22:44:44.137] [[32mConnectionManager[0m] Connection opened: #<Connection::b992fddce5dd4c9e4e0d>
+I [2015-03-22 22:44:45.134] [[32mDispatcher[0m] Started Event: routines.party_start
+I [2015-03-22 22:44:45.134] [[32mDispatcher[0m] [36mName:[0m routines.party_start
+I [2015-03-22 22:44:45.134] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b992fddce5dd4c9e4e0d>
+E [2015-03-22 22:44:49.754] [[31mDispatcher[0m] NameError: undefined local variable or method `stop_party' for #<LifxInterface:0x007fb54dedca10>
+E [2015-03-22 22:44:49.755] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/lib/lifx_interface.rb:37:in `party_lights'
+E [2015-03-22 22:44:49.755] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:9:in `create_party'
+E [2015-03-22 22:44:49.755] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 22:44:49.755] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 22:44:49.755] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 22:44:49.755] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 22:44:49.755] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 22:44:49.755] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 22:44:49.755] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 22:44:49.755] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 22:45:06.133] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 22:45:06.133] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 22:45:06.133] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b992fddce5dd4c9e4e0d>
+I [2015-03-22 22:45:06.133] [[32mDispatcher[0m] Event routines.party_stop Finished in 0.000412 seconds
+I [2015-03-22 22:45:41.580] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 22:45:41.580] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 22:45:41.580] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b992fddce5dd4c9e4e0d>
+E [2015-03-22 22:45:41.587] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fb54deef318>
+E [2015-03-22 22:45:41.588] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:13:in `destroy_party'
+E [2015-03-22 22:45:41.588] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 22:45:41.588] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 22:45:41.588] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 22:45:41.588] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 22:45:41.589] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 22:45:41.590] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 22:45:41.590] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 22:45:41.594] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 22:45:50.140] [[32mConnectionManager[0m] Connection closed: #<Connection::b992fddce5dd4c9e4e0d>
+I [2015-03-22 22:45:52.332] [[32mConnectionManager[0m] Connection opened: #<Connection::e7038d8dfdfe2bb004b6>
+I [2015-03-22 22:45:54.246] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 22:45:54.246] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 22:45:54.246] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e7038d8dfdfe2bb004b6>
+E [2015-03-22 22:45:54.247] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for nil:NilClass
+E [2015-03-22 22:45:54.247] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:13:in `destroy_party'
+E [2015-03-22 22:45:54.247] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 22:45:54.247] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 22:45:54.247] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 22:45:54.247] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 22:45:54.247] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 22:45:54.247] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 22:45:54.247] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 22:45:54.247] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 22:45:55.498] [[32mDispatcher[0m] Started Event: routines.party_start
+I [2015-03-22 22:45:55.498] [[32mDispatcher[0m] [36mName:[0m routines.party_start
+I [2015-03-22 22:45:55.498] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e7038d8dfdfe2bb004b6>
+E [2015-03-22 22:46:02.813] [[31mDispatcher[0m] NoMethodError: undefined method `play' for nil:NilClass
+E [2015-03-22 22:46:02.814] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/lib/sonos_player_interface.rb:14:in `load'
+E [2015-03-22 22:46:02.814] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/lib/sonos_player_interface.rb:31:in `play_party_song'
+E [2015-03-22 22:46:02.814] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:8:in `create_party'
+E [2015-03-22 22:46:02.814] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 22:46:02.814] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 22:46:02.814] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 22:46:02.814] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 22:46:02.814] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 22:46:02.814] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 22:46:02.814] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 22:46:02.814] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 22:48:13.566] [[32mConnectionManager[0m] Connection closed: #<Connection::e7038d8dfdfe2bb004b6>
+I [2015-03-22 22:48:15.664] [[32mConnectionManager[0m] Connection opened: #<Connection::0c54f97a99330a819902>
+I [2015-03-22 22:48:16.860] [[32mDispatcher[0m] Started Event: routines.party_start
+I [2015-03-22 22:48:16.860] [[32mDispatcher[0m] [36mName:[0m routines.party_start
+I [2015-03-22 22:48:16.861] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0c54f97a99330a819902>
+E [2015-03-22 22:49:26.518] [[31mDispatcher[0m] NameError: undefined local variable or method `stop_party' for #<LifxInterface:0x007fb551be5f10>
+E [2015-03-22 22:49:26.518] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/lib/lifx_interface.rb:37:in `party_lights'
+E [2015-03-22 22:49:26.518] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:10:in `create_party'
+E [2015-03-22 22:49:26.518] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 22:49:26.518] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 22:49:26.518] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 22:49:26.518] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 22:49:26.518] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 22:49:26.518] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 22:49:26.518] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 22:49:26.518] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 22:49:26.531] [[32mConnectionManager[0m] Connection opened: #<Connection::e685b1b01d0fe03ce838>
+I [2015-03-22 22:49:26.532] [[32mConnectionManager[0m] Connection closed: #<Connection::0c54f97a99330a819902>
+I [2015-03-22 22:49:26.534] [[32mDispatcher[0m] Started Event: routines.party_start
+I [2015-03-22 22:49:26.534] [[32mDispatcher[0m] [36mName:[0m routines.party_start
+I [2015-03-22 22:49:26.534] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e685b1b01d0fe03ce838>
+I [2015-03-22 22:54:32.717] [[32mConnectionManager[0m] Connection opened: #<Connection::f956b1dbc00a728daa8c>
+I [2015-03-22 22:54:53.465] [[32mConnectionManager[0m] Connection closed: #<Connection::f956b1dbc00a728daa8c>
+I [2015-03-22 22:54:57.841] [[32mConnectionManager[0m] Connection opened: #<Connection::11365ab95a40280387bf>
+I [2015-03-22 22:54:58.933] [[32mDispatcher[0m] Started Event: routines.party_start
+I [2015-03-22 22:54:58.933] [[32mDispatcher[0m] [36mName:[0m routines.party_start
+I [2015-03-22 22:54:58.933] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::11365ab95a40280387bf>
+I [2015-03-22 23:03:06.501] [[32mConnectionManager[0m] Connection opened: #<Connection::4838bc1f70f9ec946f23>
+I [2015-03-22 23:03:07.799] [[32mDispatcher[0m] Started Event: routines.party_start
+I [2015-03-22 23:03:07.799] [[32mDispatcher[0m] [36mName:[0m routines.party_start
+I [2015-03-22 23:03:07.799] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4838bc1f70f9ec946f23>
+I [2015-03-22 23:03:10.114] [[32mDispatcher[0m] Event routines.party_start Finished in 2.312373 seconds
+I [2015-03-22 23:03:16.674] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:03:16.674] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:03:16.674] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4838bc1f70f9ec946f23>
+E [2015-03-22 23:03:16.675] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fc247848a80>
+E [2015-03-22 23:03:16.675] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:13:in `destroy_party'
+E [2015-03-22 23:03:16.675] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:03:16.675] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:03:16.675] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:03:16.675] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:03:16.675] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:03:16.675] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:03:16.675] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:03:16.675] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:03:18.555] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:03:18.555] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:03:18.555] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4838bc1f70f9ec946f23>
+E [2015-03-22 23:03:18.556] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fc247848a80>
+E [2015-03-22 23:03:18.556] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:13:in `destroy_party'
+E [2015-03-22 23:03:18.556] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:03:18.556] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:03:18.556] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:03:18.556] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:03:18.556] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:03:18.556] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:03:18.556] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:03:18.556] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:03:18.711] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:03:18.711] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:03:18.711] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4838bc1f70f9ec946f23>
+E [2015-03-22 23:03:18.712] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fc247848a80>
+E [2015-03-22 23:03:18.712] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:13:in `destroy_party'
+E [2015-03-22 23:03:18.712] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:03:18.712] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:03:18.712] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:03:18.712] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:03:18.712] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:03:18.712] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:03:18.712] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:03:18.712] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:03:18.861] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:03:18.861] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:03:18.861] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4838bc1f70f9ec946f23>
+E [2015-03-22 23:03:18.862] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fc247848a80>
+E [2015-03-22 23:03:18.862] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:13:in `destroy_party'
+E [2015-03-22 23:03:18.862] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:03:18.862] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:03:18.862] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:03:18.862] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:03:18.862] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:03:18.862] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:03:18.862] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:03:18.862] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:03:19.320] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:03:19.327] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:03:19.331] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4838bc1f70f9ec946f23>
+E [2015-03-22 23:03:19.403] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fc247848a80>
+E [2015-03-22 23:03:19.410] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:13:in `destroy_party'
+E [2015-03-22 23:03:19.413] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:03:19.419] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:03:19.423] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:03:19.425] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:03:19.427] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:03:19.429] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:03:19.431] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:03:19.433] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:03:19.607] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:03:19.607] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:03:19.607] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4838bc1f70f9ec946f23>
+E [2015-03-22 23:03:19.608] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fc247848a80>
+E [2015-03-22 23:03:19.608] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:13:in `destroy_party'
+E [2015-03-22 23:03:19.608] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:03:19.608] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:03:19.608] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:03:19.608] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:03:19.608] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:03:19.608] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:03:19.608] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:03:19.608] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:03:29.630] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:03:29.631] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:03:29.631] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4838bc1f70f9ec946f23>
+E [2015-03-22 23:03:45.548] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fc247848a80>
+E [2015-03-22 23:03:45.548] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:14:in `destroy_party'
+E [2015-03-22 23:03:45.548] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:03:45.548] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:03:45.548] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:03:45.548] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:03:45.548] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:03:45.548] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:03:45.548] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:03:45.549] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:03:45.567] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:03:45.567] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:03:45.567] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4838bc1f70f9ec946f23>
+E [2015-03-22 23:03:47.518] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fc247848a80>
+E [2015-03-22 23:03:47.519] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:14:in `destroy_party'
+E [2015-03-22 23:03:47.519] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:03:47.519] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:03:47.519] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:03:47.520] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:03:47.520] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:03:47.520] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:03:47.520] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:03:47.520] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:03:47.524] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:03:47.525] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:03:47.525] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4838bc1f70f9ec946f23>
+E [2015-03-22 23:03:48.437] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fc247848a80>
+E [2015-03-22 23:03:48.438] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:14:in `destroy_party'
+E [2015-03-22 23:03:48.438] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:03:48.438] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:03:48.438] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:03:48.439] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:03:48.439] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:03:48.439] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:03:48.439] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:03:48.439] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:03:48.442] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:03:48.443] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:03:48.443] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4838bc1f70f9ec946f23>
+E [2015-03-22 23:03:48.884] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fc247848a80>
+E [2015-03-22 23:03:48.884] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:14:in `destroy_party'
+E [2015-03-22 23:03:48.884] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:03:48.884] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:03:48.884] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:03:48.884] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:03:48.884] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:03:48.884] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:03:48.884] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:03:48.884] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:03:48.884] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:03:48.884] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:03:48.884] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4838bc1f70f9ec946f23>
+E [2015-03-22 23:03:49.564] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fc247848a80>
+E [2015-03-22 23:03:49.564] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:14:in `destroy_party'
+E [2015-03-22 23:03:49.564] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:03:49.564] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:03:49.564] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:03:49.564] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:03:49.564] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:03:49.564] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:03:49.564] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:03:49.564] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:03:49.564] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:03:49.564] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:03:49.564] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4838bc1f70f9ec946f23>
+E [2015-03-22 23:03:50.228] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fc247848a80>
+E [2015-03-22 23:03:50.228] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:14:in `destroy_party'
+E [2015-03-22 23:03:50.228] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:03:50.228] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:03:50.228] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:03:50.228] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:03:50.228] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:03:50.228] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:03:50.228] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:03:50.228] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:03:50.228] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:03:50.228] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:03:50.228] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4838bc1f70f9ec946f23>
+E [2015-03-22 23:03:50.851] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fc247848a80>
+E [2015-03-22 23:03:50.851] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:14:in `destroy_party'
+E [2015-03-22 23:03:50.851] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:03:50.851] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:03:50.851] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:03:50.851] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:03:50.851] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:03:50.851] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:03:50.852] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:03:50.852] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:03:50.852] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:03:50.852] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:03:50.852] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4838bc1f70f9ec946f23>
+E [2015-03-22 23:03:51.476] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fc247848a80>
+E [2015-03-22 23:03:51.476] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:14:in `destroy_party'
+E [2015-03-22 23:03:51.476] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:03:51.476] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:03:51.476] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:03:51.476] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:03:51.476] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:03:51.476] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:03:51.476] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:03:51.476] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:03:51.476] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:03:51.476] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:03:51.476] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4838bc1f70f9ec946f23>
+E [2015-03-22 23:03:54.531] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fc247848a80>
+E [2015-03-22 23:03:54.532] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:14:in `destroy_party'
+E [2015-03-22 23:03:54.532] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:03:54.532] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:03:54.532] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:03:54.532] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:03:54.532] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:03:54.532] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:03:54.532] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:03:54.532] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:03:54.532] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:03:54.532] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:03:54.532] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4838bc1f70f9ec946f23>
+I [2015-03-22 23:04:53.711] [[32mConnectionManager[0m] Connection opened: #<Connection::c2092208e8640a16ae23>
+I [2015-03-22 23:05:04.581] [[32mDispatcher[0m] Started Event: routines.party_start
+I [2015-03-22 23:05:04.581] [[32mDispatcher[0m] [36mName:[0m routines.party_start
+I [2015-03-22 23:05:04.581] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c2092208e8640a16ae23>
+E [2015-03-22 23:05:07.285] [[31mDispatcher[0m] NoMethodError: undefined method `play' for nil:NilClass
+E [2015-03-22 23:05:07.389] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/lib/sonos_player_interface.rb:14:in `load'
+E [2015-03-22 23:05:07.423] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/lib/sonos_player_interface.rb:31:in `play_party_song'
+E [2015-03-22 23:05:07.451] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:7:in `create_party'
+E [2015-03-22 23:05:07.478] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:05:07.505] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:05:07.530] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:05:07.555] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:05:07.580] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:05:07.606] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:05:07.631] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:05:07.656] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:05:07.270] [[32mConnectionManager[0m] Connection closed: #<Connection::c2092208e8640a16ae23>
+I [2015-03-22 23:05:09.439] [[32mConnectionManager[0m] Connection opened: #<Connection::c13476f1f44fbd4d565f>
+I [2015-03-22 23:05:12.961] [[32mDispatcher[0m] Started Event: routines.party_start
+I [2015-03-22 23:05:12.961] [[32mDispatcher[0m] [36mName:[0m routines.party_start
+I [2015-03-22 23:05:12.961] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c13476f1f44fbd4d565f>
+I [2015-03-22 23:05:14.947] [[32mDispatcher[0m] Event routines.party_start Finished in 1.98415 seconds
+I [2015-03-22 23:05:20.162] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:05:20.162] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:05:20.162] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c13476f1f44fbd4d565f>
+E [2015-03-22 23:05:20.163] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fce29474b78>
+E [2015-03-22 23:05:20.163] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:13:in `destroy_party'
+E [2015-03-22 23:05:20.163] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:05:20.163] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:05:20.163] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:05:20.163] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:05:20.163] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:05:20.163] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:05:20.163] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:05:20.163] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:05:26.113] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:05:26.113] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:05:26.113] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c13476f1f44fbd4d565f>
+E [2015-03-22 23:05:26.113] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fce29474b78>
+E [2015-03-22 23:05:26.114] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:13:in `destroy_party'
+E [2015-03-22 23:05:26.114] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:05:26.114] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:05:26.114] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:05:26.114] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:05:26.114] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:05:26.114] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:05:26.114] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:05:26.115] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:05:37.671] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:05:37.671] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:05:37.671] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c13476f1f44fbd4d565f>
+E [2015-03-22 23:05:54.807] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fce29474b78>
+E [2015-03-22 23:05:54.807] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:14:in `destroy_party'
+E [2015-03-22 23:05:54.807] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:05:54.807] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:05:54.807] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:05:54.807] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:05:54.807] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:05:54.807] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:05:54.807] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:05:54.807] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:05:59.481] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:05:59.481] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:05:59.481] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c13476f1f44fbd4d565f>
+E [2015-03-22 23:06:31.765] [[31mDispatcher[0m] NoMethodError: undefined method `stop' for #<SonosPlayerInterface:0x007fce29474b78>
+E [2015-03-22 23:06:31.765] [[31mDispatcher[0m] /Users/karimbutt/Development/projects/railsconf_app/backend/app/controllers/routines_controller.rb:14:in `destroy_party'
+E [2015-03-22 23:06:31.765] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-03-22 23:06:31.765] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-03-22 23:06:31.765] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:82:in `run_callbacks'
+E [2015-03-22 23:06:31.765] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-03-22 23:06:31.765] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-03-22 23:06:31.765] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-03-22 23:06:31.765] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-03-22 23:06:31.765] [[31mDispatcher[0m] /Users/karimbutt/.rvm/gems/ruby-2.1.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2015-03-22 23:06:31.767] [[32mDispatcher[0m] Started Event: routines.party_start
+I [2015-03-22 23:06:31.767] [[32mDispatcher[0m] [36mName:[0m routines.party_start
+I [2015-03-22 23:06:31.767] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c13476f1f44fbd4d565f>
+I [2015-03-22 23:06:33.491] [[32mDispatcher[0m] Event routines.party_start Finished in 1.720853 seconds
+I [2015-03-22 23:06:45.124] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:06:45.124] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:06:45.124] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c13476f1f44fbd4d565f>
+I [2015-03-22 23:06:45.213] [[32mDispatcher[0m] Event routines.party_stop Finished in 0.08909 seconds
+I [2015-03-22 23:06:46.979] [[32mDispatcher[0m] Started Event: routines.party_start
+I [2015-03-22 23:06:46.979] [[32mDispatcher[0m] [36mName:[0m routines.party_start
+I [2015-03-22 23:06:46.979] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c13476f1f44fbd4d565f>
+I [2015-03-22 23:06:48.868] [[32mDispatcher[0m] Event routines.party_start Finished in 1.88585 seconds
+I [2015-03-22 23:07:07.113] [[32mDispatcher[0m] Started Event: routines.party_stop
+I [2015-03-22 23:07:07.113] [[32mDispatcher[0m] [36mName:[0m routines.party_stop
+I [2015-03-22 23:07:07.113] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c13476f1f44fbd4d565f>
+I [2015-03-22 23:07:07.173] [[32mDispatcher[0m] Event routines.party_stop Finished in 0.059726 seconds
+I [2015-03-22 23:07:12.926] [[32mConnectionManager[0m] Connection closed: #<Connection::c13476f1f44fbd4d565f>
