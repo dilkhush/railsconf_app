@@ -18,7 +18,7 @@ class SonosController < WebsocketRails::BaseController
 			sonos_player_interface.play_morning_song
 		end
 
-		controller_store[:sonos_player_model] = SonosPlayer.new
+		controller_store[:sonos_player_model] = SonosPlayer.create
 		sonos_player_model = controller_store[:sonos_player_model]
 
 		sonos_player_model.playlist = requested_playlist.capitalize
