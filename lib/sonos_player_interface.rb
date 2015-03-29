@@ -1,7 +1,8 @@
 class SonosPlayerInterface
 	STUDY_MUSIC = 'https://dl.dropboxusercontent.com/u/8101340/imprint.mp3'
 	MORNING_MUSIC = 'https://dl.dropboxusercontent.com/u/8101340/canon_in_d.mp3'
-	PARTY_MUSIC = 'https://dl.dropboxusercontent.com/u/8101340/Only%20Getting%20Younger.mp3'
+	PARTY_MUSIC = 'https://dl.dropboxusercontent.com/u/8101340/Party%20Rock%20Editted.mp3'
+	ALARM = 'https://dl.dropboxusercontent.com/u/8101340/Door_entry_notification-Loge_the_60th-95203129.mp3'
 
 	attr_accessor :speaker
 
@@ -34,6 +35,11 @@ class SonosPlayerInterface
 
 	def play_study_song
 		load(STUDY_MUSIC)
+		play
+	end
+
+	def play_alarm
+		load(ALARM)
 		play
 	end
 end

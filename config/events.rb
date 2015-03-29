@@ -34,7 +34,8 @@ WebsocketRails::EventMap.describe do
     subscribe :party_stop, 'routines#destroy_party' #triggered on client side with routines.party_stop
     
     subscribe :morning, 'routines#morning' #triggered on client side with routines.morning
-    subscribe :motion_detector_alarm, 'routines#motion_detector_alarm' #triggered on client side with routines.motion_detector_alarm
+    subscribe :create_motion_detector_alarm, 'routines#create_motion_detector_alarm' #triggered on client side with routines.create_motion_detector_alarm
+    subscribe :destroy_motion_detector_alarm, 'routines#destroy_motion_detector_alarm' #triggered on client side with routines.destroy_motion_detector_alarm
     subscribe :motion_detector_text, 'routines#motion_detector_alarm' #triggered on client side with routines.motion_detector_text
   end
 

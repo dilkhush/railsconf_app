@@ -1,10 +1,15 @@
 class MotionDetectorInterface
 	
-	def initialize
+	def initialize(alert_type=nil)
 		Thread.abort_on_exception = true
+
+		if alert_type == "alarm"
+			@sonos = SonosPlayerInterface.new
+		end
 	end
 
 	def start_motion_detector
+		sonos = @sonos
 		Thread.new do
 			# Connect to Arduino
 			arduino = ArduinoFirmata.connect
@@ -22,8 +27,11 @@ class MotionDetectorInterface
 				if pin == 7 && status == true
 					WebsocketRails[:motion_detector].trigger 'status', {status: "Motion has been detected"}
 					MotionDetection.create
-
 			    	arduino.digital_write 13, true
+
+			    	if sonos
+			    		sonos.play_alarm
+			    	end
 				end
 
 				# What to do if there is no motion

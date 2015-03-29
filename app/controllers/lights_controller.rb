@@ -5,7 +5,7 @@ class LightsController < WebsocketRails::BaseController
 	end
 
 	def show
-		send_message(:light_status, status: controller_store[:light].on?)
+		send_message(:light_status, status: controller_store[:light_interface].on?)
 	end
 
 	def create
@@ -33,7 +33,7 @@ class LightsController < WebsocketRails::BaseController
 			brightness = brightness_params
 
 			controller_store[:light_interface].change_brightness(brightness)
-			
+
 			light.brightnesses.build(value: brightness)
 
 		end
