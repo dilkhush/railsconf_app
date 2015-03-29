@@ -8,8 +8,7 @@ class CoffeeMakerController < WebsocketRails::BaseController
 
   def destroy
     controller_store[:coffee_maker].stop_coffee_maker
-    controller_store[:coffee_maker_model].destroyed_at = DateTime.now
-    controller_store[:coffee_maker_model].save
+    controller_store[:coffee_maker_model].destroy
   end
 
 end
