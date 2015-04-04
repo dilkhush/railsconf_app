@@ -29,6 +29,10 @@ WebsocketRails::EventMap.describe do
     subscribe :destroy, :to => MotionDetectorController, :with_method => :destroy #triggered on client side with motion_detector.destroy
   end
 
+  namespace :motion_detections do
+    subscribe :index, :to => MotionDetectionsController, :with_method => :index 
+  end
+
   namespace :routines do
     subscribe :party_start, 'routines#create_party' #triggered on client side with routines.party_start
     subscribe :party_stop, 'routines#destroy_party' #triggered on client side with routines.party_stop

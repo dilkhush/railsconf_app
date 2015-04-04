@@ -27,6 +27,8 @@ class MotionDetectorInterface
 				if pin == 7 && status == true
 					WebsocketRails[:motion_detector].trigger 'status', {status: "Motion has been detected"}
 					MotionDetection.create
+					
+					WebsocketRails[:motion_detector].trigger 'new_motion', MotionDetection.motions_detected_hash
 			    	arduino.digital_write 13, true
 
 			    	if sonos
