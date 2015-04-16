@@ -13,37 +13,29 @@ class LightsController < WebsocketRails::BaseController
 		controller_store[:light_model] = Light.create
 	end
 
+	def destroy
+		controller_store[:light_interface].turn_off
+		controller_store[:light_model].destroy
+	end
+
 	def update
-		# params look like this: {color: {red: 'integer', green: 'integer', blue: 'integer'}, brightness: 'integer'}
 		rgb_value_params = message[:color]
 		brightness_params = message[:brightness]
-
 		light = controller_store[:light_model]
 
 		if rgb_value_params
 			red = rgb_value_params[:red]
 			green = rgb_value_params[:green]
 			blue = rgb_value_params[:blue]
-
 			controller_store[:light_interface].set_rgb(red, green, blue)
-
 			light.colors.build(red: red, green: green, blue: blue)
-
 		elsif brightness_params
 			brightness = brightness_params
-
 			controller_store[:light_interface].change_brightness(brightness)
-
 			light.brightnesses.build(value: brightness)
-
 		end
 		light.save
 	end
-
-	def destroy
-		controller_store[:light_interface].turn_off
-		controller_store[:light_model].destroy
-	end
-
+	
 end
 

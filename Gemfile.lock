@@ -39,6 +39,7 @@ GEM
     args_parser (0.2.0)
     bindata (2.1.0)
     builder (3.2.2)
+    choice (0.1.6)
     coderay (1.1.0)
     configatron (3.2.0)
     daemons (1.1.9)
@@ -99,6 +100,11 @@ GEM
     rails-api (0.4.0)
       actionpack (>= 3.2.11)
       railties (>= 3.2.11)
+    rails-erd (1.1.0)
+      activerecord (>= 3.0)
+      activesupport (>= 3.0)
+      choice (~> 0.1.6)
+      ruby-graphviz (~> 1.0.4)
     railties (4.1.6)
       actionpack (= 4.1.6)
       activesupport (= 4.1.6)
@@ -108,6 +114,7 @@ GEM
     redis (3.2.1)
     redis-objects (1.1.0)
       redis (>= 3.0.2)
+    ruby-graphviz (1.0.9)
     rumba (0.2.6)
       serialport
     savon (2.10.0)
@@ -178,6 +185,7 @@ DEPENDENCIES
   pry
   rails (= 4.1.6)
   rails-api
+  rails-erd
   rumba
   sonos
   sqlite3

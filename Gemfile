@@ -13,3 +13,4 @@ gem 'arduino_firmata'
 gem 'sonos'
 gem 'websocket-rails'
 gem 'rumba'
+gem "rails-erd"

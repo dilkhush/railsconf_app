@@ -1,12 +1,5 @@
 WebsocketRails::EventMap.describe do
 
-  # namespace :lights do
-  #   subscribe :show, 'lights#show' #triggered on client side with lights.show
-  #   subscribe :create, 'lights#create' #triggered on client side with lights.create
-  #   subscribe :update, 'lights#update' #triggered on client side with lights.update
-  #   subscribe :destroy, 'lights#destroy' #triggered on client side with lights.destroy
-  # end
-
   namespace :lights do
     subscribe :show, :to => LightsController, :with_method => :show #triggered on client side with lights.show
     subscribe :create, :to => LightsController, :with_method => :create #triggered on client side with lights.create
@@ -30,7 +23,7 @@ WebsocketRails::EventMap.describe do
   end
 
   namespace :motion_detections do
-    subscribe :index, :to => MotionDetectionsController, :with_method => :index 
+    subscribe :index, :to => MotionDetectionsController, :with_method => :index #triggered on client side with motion_detections.index
   end
 
   namespace :routines do

@@ -19,11 +19,10 @@ def create_objects(number_of_times, object, days_ago)
 	end
 end
 
-
 create_objects(1, MotionDetection, 6.days)
-create_objects(7, MotionDetection, 5.days)
-create_objects(4, MotionDetection, 4.days)
-create_objects(5, MotionDetection, 3.days)
-create_objects(2, MotionDetection, 2.days)
+create_objects(3, MotionDetection, 5.days)
+create_objects(0, MotionDetection, 4.days)
+create_objects(1, MotionDetection, 3.days)
+create_objects(0, MotionDetection, 2.days)
 
 # MotionDetection.all.select {|detection| detection.created_at.to_date == Date.today-1}.size

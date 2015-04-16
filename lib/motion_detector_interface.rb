@@ -11,19 +11,15 @@ class MotionDetectorInterface
 	def start_motion_detector
 		sonos = @sonos
 		Thread.new do
-			# Connect to Arduino
-			arduino = ArduinoFirmata.connect
-			# "/dev/tty.usbmodem1451"
+			arduino = ArduinoFirmata.connect #through USB to Raspberry Pi
 			@connected_arduino = arduino
 			
 			# Declare Pin 7 on the Arduino as an input pin
 			arduino.pin_mode 7, ArduinoFirmata::INPUT
 
-
-
 			# Read the digital pins
 			arduino.on :digital_read do |pin, status|
-				# What to do if there is motion
+				# What to do if motion is detected
 				if pin == 7 && status == true
 					WebsocketRails[:motion_detector].trigger 'status', {status: "Motion has been detected"}
 					MotionDetection.create
